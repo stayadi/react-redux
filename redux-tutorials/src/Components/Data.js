@@ -12,7 +12,7 @@ const Data = () => {
           `https://jsonplaceholder.typicode.com/users`
         );
         setData(response.data);
-        // console.log(response);
+        console.log(response.data);
         setErr(null);
       } catch (err) {
         setErr(err.message);
